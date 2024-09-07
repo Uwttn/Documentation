@@ -1,0 +1,25 @@
+/* Thumbnail <-- */
+
+.thumb-container { 
+    width: 300px; 
+    height: auto; 
+    border: 5px solid #000000; 
+    border-radius: 8px; 
+} 
+
+.thumb-image { 
+    width: fit-content; 
+    object-fit: cover; 
+    border-radius: 5px; 
+} 
+
+.thumb-image:hover { 
+    scale: 1.02; 
+    cursor: pointer; 
+} 
+
+.thumb-container:hover { 
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5); 
+} 
+
+/* --> Thumbnail */
